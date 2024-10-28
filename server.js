@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173' // Replace with your frontend's URL
+    origin: 'https://sampathresidency.netlify.app/' // Replace with your frontend's URL
 }));
 app.use(express.json()); // Built-in body parser
 
